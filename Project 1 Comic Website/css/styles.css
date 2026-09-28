@@ -46,30 +46,31 @@ p {
     text-align: center;
 }
 
+/* Table Customization */
 table {
     border-collapse: collapse;
     border: 3px solid #9daecc;
     width: 80%;
     margin: 0 auto;
 }
-
+/* creates a border around the table cells and adds padding to the content within the cells */
 th,td {
     border: 1px solid #9daecc;
     padding: .5em;
     text-align: center;
 }
-
+/* centers the text in the table header cells in the rows*/
 th[scope="row"] {
     text-align: center;
     font-weight: normal;
 }
-
+/* adds a background color to the table header cells in the colgroup */
 th[scope="colgroup"] {
     background-color: #dbe5f5;
     color: #0b3d91;
     text-align: center;
 }
-
+/* adds a background color to the table when it is focused (tabindex) */
 table:focus {
     outline: 3px solid #0b3d91;
 }
