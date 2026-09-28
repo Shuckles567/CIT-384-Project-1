@@ -4,17 +4,20 @@
         <meta charset="UTF-8">
         <title>The Fantastic 4</title>
         <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header role="banner">
             <h1>The Fantastic 4</h1>
             <nav role="navigation">
                 <ul>
-                    <li><a href="index.html" title="The Fantastic 4">The Fantastic 4</a></li>
-                    <li><a href="reed.html" title="Reed Richards">Reed Richards (Mr. Fantastic)</a></li>
-                    <li><a href="sue.html" title="Sue Storm">Sue Storm (Invisible Woman)</a></li>
-                    <li><a href="johnny.html" title="Johnny Storm">Johnny Storm (Human Torch)</a></li>
-                    <li><a href="ben.html" title="Ben Grimm">Ben Grimm (The Thing)</a></li>
+                    <li><a href="index.html" title="The Fantastic 4"><i>The Fantastic 4</i></a></li>
+                    <li><a href="reed.html" title="Reed Richards">Reed Richards <i>(Mr. Fantastic)</i></a></li>
+                    <li><a href="sue.html" title="Sue Storm">Sue Storm <i>(Invisible Woman)</i></a></li>
+                    <li><a href="johnny.html" title="Johnny Storm">Johnny Storm <i>(Human Torch)</i></a></li>
+                    <li><a href="ben.html" title="Ben Grimm">Ben Grimm <i>(The Thing)</i></a></li>
                 </ul>
             </nav>
         </header>
@@ -37,17 +40,18 @@
                 <p>The Fantastic 4 were created by Stan Lee and Jack Kirby and first appeared in the comic book "The Fantastic 4" #1 in November 1961. The team has been a staple of Marvel Comics ever since, with numerous storylines and adventures. They've also been features in numerous live action film adaptations.</p>
                 <p>The following table consists of all the films released that this team was featured in. </p>
             </section>
-            <table class="table" tabindex="0">
-                <thead>
+            <!-- Table of Fantastic 4 films -->
+            <table class="table" tabindex="0"> <!-- tabindex allows the table to be focused with the keyboard -->
+                <thead> <!-- Thead is used to group header content in an HTML table -->
                     <tr>
-                        <th scope="col">Film Name</th>
+                        <th scope="col">Film Name</th> <!-- The scope attribute defines the purpose of a cell -->
                         <th scope="col">Director</th>
                         <th scope="col">Year</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody> <!-- Tbody is used to group the body content in an HTML table -->
                     <tr>
-                        <th scope="colgroup" colspan="3">20th Century Fox Films</th>
+                        <th scope="colgroup" colspan="3">20th Century Fox Films</th> <!-- colspan attribute specifies the number of columns a cell should span, used to divide the different film studios.-->
                     </tr>
                     <tr>
                         <th scope="row">Fantastic Four</th>
